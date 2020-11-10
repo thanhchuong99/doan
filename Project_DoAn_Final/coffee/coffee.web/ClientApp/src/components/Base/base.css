@@ -1,0 +1,87 @@
+
+.banner{
+	position: relative;
+	background: url(../../assets/images/banner.jpg);
+	min-height: 120vh;
+	background-size: cover;
+	background-position: center;
+	padding: 250px 0 200px;
+}
+.uk-form-icon {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 10px;
+    width: 40px;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: #999;
+    margin-bottom: 3.5rem;
+}
+.uk-form-icon:not(a):not(button):not(input) {
+    pointer-events: none;
+}
+.uk-form-icon:not(.uk-form-icon-flip) ~ .uk-input {
+    padding-left: 40px !important;
+}
+.uk-input, .uk-select:not([multiple]):not([size]) {
+    height: 40px;
+    vertical-align: middle;
+    display: inline-block;
+}
+.uk-input{
+	
+    width: 100%;
+    border: 0 none;
+    padding: 0 10px;
+    background: #fff;
+    color: #333333;
+    border: 1px solid #7f7f7f;
+    -webkit-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
+    -webkit-transition-property: color, background-color, border;
+    transition-property: color, background-color, border;
+}
+.uk-button:hover {
+    text-decoration: none;
+}
+
+.uk-button-primary {
+    background-color: #ea8025;
+    color: #fff;
+    border: 1px solid transparent;
+}
+.uk-button:active{
+ outline: 0;
+  border: none;
+}	
+.uk-button {
+	outline: none;
+	margin-top: 1rem;
+    border-radius: 0;
+    overflow: visible;
+    text-transform: none;
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 30px;
+    vertical-align: middle;
+    font-size: 0.875rem;
+    line-height: 38px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    -webkit-transition: 0.1s ease-in-out;
+    transition: 0.1s ease-in-out;
+}
+.uk-button-primary:active, .uk-button-primary.uk-active {
+    background-color: #c96713;
+    color: #fff;
+}

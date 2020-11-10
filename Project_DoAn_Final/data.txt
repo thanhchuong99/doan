@@ -1,0 +1,1 @@
+Scaffold-DbContext "Data Source=DESKTOP-5NBGHMV;Initial Catalog=cofee;Persist Security Info=True;User ID=sa;Password=10253476Aa;Pooling=False;MultipleActiveResultSets=False;Encrypt=False;TrustServerCertificate=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models -Force
